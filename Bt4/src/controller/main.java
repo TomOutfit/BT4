@@ -27,7 +27,7 @@ public class main {
                         System.out.println("Thoat chuong trinh.");
                         exit = true;
                     }
-                    default -> System.out.println("Khong co lua chon nay, moi ban chon lai.");
+                    default -> System.out.println("Khong co lua chon nay, moi ban chon cai khac di!");
                 }
             }
         }
@@ -83,7 +83,7 @@ public class main {
                 sv.setName(name);
                 sv.setGender(gender);
                 sv.setMajor(major);
-                System.out.println("Thong tin sinh vien da duoc sua.");
+                System.out.println("Thong tin sinh vien da duoc cap nhat.");
                 return;
             }
         }
